@@ -41,7 +41,7 @@ app.get('/v1/search', async (req, res) => {
     const { query } = req.query
     try {
         const response = await search(query)
-        const results = response?.data?.items.map(result => ({
+        const results = response.data.items.map(result => ({
             title: result.title,
             link: result.link,
             description: result.snippet,
