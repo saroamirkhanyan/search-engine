@@ -6,7 +6,8 @@ const express = require('express')
 const app = express()
 const PORT = process.env.PORT || 8080
 const db = require('./database.json')
-
+const cors = require('cors')
+app.use(cors)
 async function search(q) {
     return await customSearch.cse.list({
         auth: apiKey,
