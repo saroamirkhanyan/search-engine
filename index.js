@@ -21,7 +21,7 @@ app.get('/v1/answers', async (req, res) => {
     const { keyword } = req.query
     try {
         const response = await search(keyword)
-        const answers = response?.data?.items?.map(answer => answer.title)
+        const answers = response.data.items.map(answer => answer.title)
         res.json({
             fakeData: false,
             answers
