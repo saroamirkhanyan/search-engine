@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "googleapis": "^59.0.0"
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "lowdb": "^1.0.0"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
