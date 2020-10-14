@@ -41,9 +41,7 @@ async function loadAllLinkedPages(url) {
       pages.push(page_info)
         .write()
       loadAllLinkedPages(href)
-    } catch {
-      console.log('smth went wrong');
-    }
+    } catch { }
 
   }
 }
