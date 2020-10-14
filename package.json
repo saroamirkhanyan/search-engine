@@ -5,7 +5,8 @@
   "dependencies": {
     "axios": "^0.19.2",
     "cheerio": "^1.0.0-rc.3",
-    "lowdb": "^1.0.0"
+    "lowdb": "^1.0.0",
+    "url-join": "^4.0.1"
   },
   "devDependencies": {},
   "scripts": {
@@ -15,5 +16,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saroamirkhanyan/search-engine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/saroamirkhanyan/search-engine/issues"
+  },
+  "homepage": "https://github.com/saroamirkhanyan/search-engine#readme",
   "description": ""
 }
