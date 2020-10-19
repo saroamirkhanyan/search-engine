@@ -3,7 +3,7 @@ const cheerio = require('cheerio')
 const getDb = require('./get-db')
 const db = getDb('./db.json')
 const getPageInfo = require('./get-page-info')
-// const getPageInfo = require)()
+
 const pages = db.get('pages')
 const loadPage = async (url) => {
   const { data } = await axios.get(url);
